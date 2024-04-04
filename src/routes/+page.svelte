@@ -10,7 +10,7 @@
 	import { calculateArbitrage } from './calculate';
 
 	let bets = [];
-	let odds: number[] = [200, 180];
+	let odds: number[] = [];
 	let stakeStr: string;
 	let stake: number;
 	$: stake = parseFloat(stakeStr);
